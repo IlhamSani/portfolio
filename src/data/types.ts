@@ -82,6 +82,9 @@ export interface Project {
   title: string;
   description: string;
   tags: string[];
+  image?: string;
+  images?: string[];
+  link?: string;
 }
 
 export interface SkillCategory {
